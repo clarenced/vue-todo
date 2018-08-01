@@ -8,9 +8,11 @@
 
 <script>
 import Todos from '@/components/Todos';
+import store from './store';
 
 export default {
   name: 'app',
+  store,
   components: {
     Todos
   }
